@@ -1,5 +1,5 @@
 import fs from 'fs';
-const input = fs.readFileSync('./input.mjs', {encoding:'utf8', flag:'r'});
+const input = fs.readFileSync('./input.txt', {encoding:'utf8', flag:'r'});
 
 const elves = input.split('\n\n');
 
